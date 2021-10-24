@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "840a65a0659bbde46c81b0245a50c699",
+    "content-hash": "4a317a9b86660615574235bd24c15542",
     "packages": [
         {
             "name": "adhocore/cron-expr",
@@ -4691,11 +4691,17 @@
         },
         {
             "name": "vikbert/cloud-cron-bundle",
-            "version": "dev-main",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vikbert/CloudCronBundle.git",
+                "reference": "f788730c6063ff88dec41b97aab1e15d665590f0"
+            },
             "dist": {
-                "type": "path",
-                "url": "../CloudCronBundle",
-                "reference": "c2054b2f7108ed9290b79363cbce5a5b9d441987"
+                "type": "zip",
+                "url": "https://api.github.com/repos/vikbert/CloudCronBundle/zipball/f788730c6063ff88dec41b97aab1e15d665590f0",
+                "reference": "f788730c6063ff88dec41b97aab1e15d665590f0",
+                "shasum": ""
             },
             "require": {
                 "adhocore/cron-expr": "^1.1",
@@ -4712,6 +4718,7 @@
                     "Vikbert\\CloudCronBundle\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -4722,9 +4729,11 @@
                 }
             ],
             "description": "A lightweight and super fast symfony bundle to schedule cron jobs in cloud environment",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/vikbert/CloudCronBundle/issues",
+                "source": "https://github.com/vikbert/CloudCronBundle/tree/0.2.0"
+            },
+            "time": "2021-10-24T09:00:39+00:00"
         }
     ],
     "packages-dev": [],
@@ -4732,8 +4741,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "doctrine/doctrine-fixtures-bundle": 20,
-        "doctrine/doctrine-migrations-bundle": 20,
-        "vikbert/cloud-cron-bundle": 20
+        "doctrine/doctrine-migrations-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

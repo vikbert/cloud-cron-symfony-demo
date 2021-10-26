@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://1.bp.blogspot.com/-dBoGxQMuDpA/YFb8qV9LM5I/AAAAAAAAARQ/ImtGfZRZQ9kweL0OJwnI0mtM_udBtZCqwCNcBGAsYHQ/w680/coding%2Bskils%2Bto%2Bget%2Bjob.jpeg" width="480px" alt="aino" />
-  <h3>A Symfony Demo for vikbert/CloudCronBundle</h3>
+  <h3>A Symfony Demo for vikbert/cloud-cron-bundle</h3>
 
   <p>
     <a href="#">
@@ -21,8 +21,8 @@ composer install
 
 ## Getting started
 ```bash
-php bin/console 
-php bin/console cron:watch 
+make start
+ 
 ```
 
 ## licence

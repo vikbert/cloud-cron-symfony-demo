@@ -1,0 +1,5 @@
+{
+    "symfony/process": {
+        "version": "5.3.x-dev"
+    }
+}

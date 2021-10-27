@@ -14,15 +14,9 @@
 
 ---
 
-## Install the packages
-```bash
-composer install
-```
-
 ## Getting started
 ```bash
 make start
- 
 ```
 
 ## licence
